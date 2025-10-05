@@ -604,6 +604,7 @@ svg{
 }
 @media (min-width: 1500px){
     .maintxt{
-        padding-left: 1000px;
+        padding-left: -1000px;
     }
 }
+
