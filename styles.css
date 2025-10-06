@@ -602,9 +602,19 @@ svg{
     gap: clamp(1rem, 4vw, 2rem);
   }
 }
-@media (min-width: 1500px){
-    .maintxt{
-        padding-left: -1000px;
-    }
+@media (max-width: 2200px){
+  .mainbody .maintxt{
+    width: auto;
+  }
+  .mainbody .maintxt img{
+    width: 10%;
+  }
+  .mainbody .intro{
+    width: 80%; 
+  }
+  .mainbody .des{
+    width: 80%;
+    padding-left: 40rem;
+  }
 }
 
