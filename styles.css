@@ -302,7 +302,7 @@ svg{
     transform: translateY(5px);
 }
 
-@media (max-width: 2200px){
+@media (min-width: 1500px){
   .mainbody .maintxt{
     width: auto;
   }
@@ -618,3 +618,4 @@ svg{
     gap: clamp(1rem, 4vw, 2rem);
   }
 }
+
